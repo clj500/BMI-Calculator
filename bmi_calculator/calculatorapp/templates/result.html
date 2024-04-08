@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+</head>
+
+<div class="center">
+Your BMI is: 
+<h1>{{bmi}}</h1>
+
+You are: 
+<h1>{{category}}</h1>
+    
+<a href="{% url 'home' %}">Go Back</a>
+</div>
+
+<style>
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #a5addb;
+    padding: 10px;
+  }
+</style>
